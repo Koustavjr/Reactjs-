@@ -1,2 +1,7 @@
 Vite--> a bundler whose work is to combine multiple js file and give a single one
 bundler-->A bundler is a tool that takes your JavaScript, CSS, and other assets, and packages them together into optimized bundles that are ready to be served to your users’ browsers.
+
+React flow and structure
+
+Always make capiatlise name of the components 
+some libraries will force to keep components name as jsx
