@@ -5,3 +5,9 @@ React flow and structure
 
 Always make capiatlise name of the components 
 some libraries will force to keep components name as jsx
+
+bundler converts jsx to tree like structure for parsing
+
+In react {variable_name} is called evaluated expression which means we dont write js here.
+we write outcome of js that has already been evaluated.
+Ex we cannot write {if(true) expression} something like this
