@@ -11,3 +11,12 @@ bundler converts jsx to tree like structure for parsing
 In react {variable_name} is called evaluated expression which means we dont write js here.
 we write outcome of js that has already been evaluated.
 Ex we cannot write {if(true) expression} something like this
+
+Hooks--> It is used as we saw in counter project when we update value of counter its updated value is
+not reflected on the UI of the page. Hooks deals with this problem.
+
+useState--> This hook is used to propagate changes in React UI. Basically used to sync change in state and ui
+
+const [variable,setVariable]=useState(value);
+
+setVariable method is use to set value for 'variable';
