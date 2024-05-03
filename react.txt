@@ -20,3 +20,18 @@ useState--> This hook is used to propagate changes in React UI. Basically used t
 const [variable,setVariable]=useState(value);
 
 setVariable method is use to set value for 'variable';
+
+-----------------------------------------------------------------------------------------------
+
+Virtual DOM,fibre and reconcillation
+
+createRoot()--> It Basically creates a DOM like structure behind the scene. It creates its own DOM and compares with
+the browsers dom and only makes changes to  those part that has actually been updated in UI where as our browser
+clears the whole DOM and reloads a new DOM in case of updation.
+
+Link: https://github.com/acdlite/react-fiber-architecture
+
+reconcillation--> Algorithm that checks recursively what to update and what not and compares b/w the 
+browser tree and react tree.
+
+
