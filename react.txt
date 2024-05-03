@@ -33,5 +33,8 @@ Link: https://github.com/acdlite/react-fiber-architecture
 
 reconcillation--> Algorithm that checks recursively what to update and what not and compares b/w the 
 browser tree and react tree.
+----------------------------------------------------------------------------------------------------------
 
-
+Props --> It makes components reusable.
+for passing variables in props we need to use {} braces.
+like {variable_name}
