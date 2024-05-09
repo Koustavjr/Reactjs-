@@ -38,3 +38,10 @@ browser tree and react tree.
 Props --> It makes components reusable.
 for passing variables in props we need to use {} braces.
 like {variable_name}
+
+-----------------------------------------------------------------------------------------------------
+
+React Router DOM
+
+we use Link tag here instead of 'a'tag since 'a' tag refreshes the page and there is no concept
+of refreshing page in react it is based on updating the dom
